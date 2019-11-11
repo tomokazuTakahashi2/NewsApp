@@ -125,7 +125,7 @@
                                 <rect key="frame" x="168.5" y="413" width="77" height="30"/>
                                 <state key="normal" title="通知を設定"/>
                                 <connections>
-                                    <action selector="onNotificationTapped:" destination="WHd-uE-P36" eventType="touchUpInside" id="kaJ-XZ-8Sn"/>
+                                    <action selector="onNotificationButtonTapped:" destination="WHd-uE-P36" eventType="touchUpInside" id="sgX-2s-FaU"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5C-ck-yOZ">
@@ -159,8 +159,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="datePicker" destination="NSC-37-1ZP" id="heC-Wy-es1"/>
+                        <outlet property="notificationButton" destination="nog-bx-Myu" id="SVT-vY-8vu"/>
                         <outlet property="notificationSwitch" destination="d5C-ck-yOZ" id="Lp6-nX-9M4"/>
-                        <outlet property="onNotificationButton" destination="nog-bx-Myu" id="AgT-Cp-wyl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pM2-BQ-L4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
